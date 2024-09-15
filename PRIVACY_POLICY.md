@@ -22,6 +22,8 @@ SD Maid does not use the AccessibilityService API to collect, send or transmit i
 
 ## Automatic crash reports
 
+*Removed in v5.6.1*
+
 Anonymous device information may be collected in the event of an app crash or error.
 
 To do this the app uses the service "Bugsnag":
@@ -39,6 +41,12 @@ This is voluntary and you can opt out of this in the settings.
 Upon launch, SD Maid will tell my server its version and in return get told if there is an update.
 There are quite a few people who use SD Maid without Google Play and this allows them know about updates without manually checking.
 The update check transmits your SD Maid and Android version.
+
+## License check
+
+If you bought a license/serial key and use that to unlock SD Maid, then SD Maid communicates with apps.darken.eu to verify the license. To do so it sends the license key, your Android version, SD Maid version and what type of device you have (e.g. Samsung S22) to my server.
+
+The privacy policy for apps.darken.eu can be found here: https://apps.darken.eu/privacy
 
 ## Clutter reports
 

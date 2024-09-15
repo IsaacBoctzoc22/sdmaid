@@ -1,7 +1,56 @@
 # Changelog
-- Latest production version: v5.5.8(50508), Unlocker v4.5.0(40500)
-- Latest beta version: 🎄
+- Latest production version: v5.6.3(506013), Unlocker v5.6.1(50601)
+- Latest beta version: 🎅
 - Legacy versions: [v4.15.15](changelogV4.md), [v3.1.5.4](changelogV3.txt), [v2.1.4.1](changelogV2.txt), [v0.9.8.9](changelogV1.txt).
+
+## SD Maid v5.6.3 28.11.2023
+### CorpseFinder
+- Changed: Some root related corpse detections have been disabled on Android 14+ due to risk of false-positives, use SD Maid 2/SE on Android 13+. 
+
+## SD Maid v5.6.2 09.10.2023
+### Core
+- Changed: Prepared the access key based upgrade system for a future deprecation of apps.darken.eu. Access keys will keep working of course, but the website will not be available anymore at some point.
+
+### CorpseFinder
+- Removed: Disabled the corpse filter for `/data/app` on Android 14+ due to false-positive results, use SD Maid 2/SE on Android 13+.  
+
+## SD Maid v5.6.1 09.09.2023
+### Core
+- Added: Info during setup about potential compatibility issues with Android 13+ and link to SD Maid 2.
+- Added: Notification permission setup for Android 13+.
+- Changed: Some upgrade related texts and UI components.
+- Changed: Updated bug tracking code and dependencies.
+- Removed: Delcared SUPERUSER permission, this was a remnant from older SuperSU days and is unused with Magisk.
+
+### AppCleaner
+- Improved: Android 13 compatibility.
+
+## SD Maid v5.6.0 20.08.2023
+### Core
+- Improved: Support for Android 12 and 13.
+- Improved: Setup on Android 13.
+- Fixed: Google requirement so App stays available on Android 13.
+   
+### Exporer
+- Added: Sort-reverse is now being remembered.
+
+## SD Maid v5.5.10 05.07.2023
+### Core
+- Improved: Translations.
+- Improved: Updated internal dependencies.
+- Fixed: Various small UI issues.
+- Added: Small hint about SD Maid SE.
+- Fixed: Issue with Google Play billing SDK.
+- Fixed: Issue with Android TV compliance.
+
+## SD Maid v5.5.9 28.02.2023
+### Core
+- Improved: Improved translations.
+- Improved: Clutter database.
+
+### AppCleaner
+- Added: Support for MIUI 14 based devices (Redmi, Mi, Poco).
+- Improved: Filters for hidden caches.
 
 ## SD Maid v5.5.8 17.01.2023
 ### Core
